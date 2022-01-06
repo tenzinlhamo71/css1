@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>application form</title>
+	<link rel="stylesheet" href="application.css">
+</head>
+<body>
+    <nav>
+       <a href="assignment4.html">HOME</a>
+       <a href="aboutus.html">ABOUT US</a>
+       <a href="assignment4.html">ANNOUNCEMENT</a>
+       <a href="gallerrry.html" target="_self">GALLERY</a>
+       <a href="assignment4.html">CONTACT</a>
+        <a href="#APPLICATION"target="_self">
+    </nav>
+<div class="container">
+	<h1>Application Form</h1>
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+	<div class="col-25">
+		<label for="lname">Choose the Post</label>
+	  </div>
+  <div class="col-75">
+	<select id="country" name="country">
+	  <option>select one</option>
+	 <option>Photo Analist</option>
+	  <option>Editor</option>
+	   <option>Manager</option>
+	</select>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Location</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option>select one</option>
+	   <option>Thimphu</option>
+		<option>Paro</option>
+		 <option>Chukha</option>
+		 <option>Wanngdi</option>
+		<option>Mongar</option>
+		 <option>Punakha</option>
+		<option>Tashigang</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+
+</div>
+ </body>
+</html>
